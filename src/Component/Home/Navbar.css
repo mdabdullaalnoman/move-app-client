@@ -1,0 +1,35 @@
+.nav-bg{
+    background-color: #151515;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo img {
+    width:50px;
+}
+.menu ul{
+    display:flex;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style:none;
+    margin-left: 1rem;
+}
+.menu ul li a{
+    color:white;
+    font-size: 20px;
+}
+.menu ul li a button{
+    color:#151515;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(93, 192, 0);
+    border-radius: 5px 20px;
+}
+@media (max-width: 600px){
+.menu ul{
+    display:inline-flex;
+}
+}
